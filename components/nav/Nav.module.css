@@ -1,0 +1,50 @@
+.nav {
+	text-transform: uppercase;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.nav > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav > ul > li {
+	display: inline-block;
+}
+
+.nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 1rem;
+	border-radius: 2px;
+	transition: background 100ms, color 100ms, text-shadow 100ms;
+}
+
+.nav a:hover {
+	background: black;
+	color: white;
+	text-shadow: 0 0 12px var(--color-blue);
+	transition: background 100ms, color 100ms, text-shadow 300ms;
+}
+
+.logo {
+	margin-right: 1rem;
+}
+
+.primary {
+	flex: 1;
+}
+
+.socials {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.nav .socials a {
+	border-radius: 999px;
+}

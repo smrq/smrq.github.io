@@ -1,0 +1,18 @@
+.container {
+	width: fit-content;
+	min-height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.container main {
+	width: 640px;
+	flex: 1;
+	background-color: black;
+	color: white;
+	text-shadow: 0 0 12px var(--color-blue);
+	padding: 2rem;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}

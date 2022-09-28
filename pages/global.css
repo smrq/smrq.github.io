@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@font-face {
+	font-family: smrqfont;
+	font-display: swap;
+	src: url(/font/smrqfont.ttf);
+}
+
+:root {
+	--font-title: smrqfont, sans-serif;
+	--letter-spacing-title: 0.05em;
+	--font-body: 'Share Tech', sans-serif;
+	--color-red: #ff5301;
+	--color-yellow: #fff222;
+	--color-purple: #ffdded;
+	--color-blue: #9ec8ed;
+}
+
+html,
+body,
+#__next {
+	height: 100%;
+}
+
+body {
+	font-family: var(--font-title);
+	letter-spacing: var(--letter-spacing-title);
+	font-size: 1.5rem;
+	background: linear-gradient(
+		180deg,
+		var(--color-yellow),
+		var(--color-red) 32rem
+	);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+.font-title {
+	font-family: var(--font-title);
+	letter-spacing: var(--letter-spacing-title);
+}
+
+.font-body {
+	font-family: var(--font-body);
+	letter-spacing: 0;
+}
+
+.margin-y-400 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.gap-400 {
+	gap: 1rem;
+}
+
+.gap-500 {
+	gap: 1.5rem;
+}
+
+.gap-600 {
+	gap: 2rem;
+}
+
+.gap-700 {
+	gap: 4rem;
+}

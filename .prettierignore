@@ -1,0 +1,5 @@
+package.json
+out
+.next
+.pnp*
+.yarn

@@ -1,0 +1,31 @@
+{
+  "name": "smrq.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:smrq/smrq.github.io",
+  "author": "Greg Smith <smrq@smrq.net>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "afterinstall": "husky install",
+    "precommit": "lint-staged",
+    "format": "prettier --write .",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "next": "^12.3.1",
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-social-icons": "^5.14.0",
+    "react-youtube": "^10.0.0"
+  }
+}
