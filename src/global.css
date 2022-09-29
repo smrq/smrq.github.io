@@ -1,4 +1,4 @@
-@import url('~normalize.css');
+@import url('~normalize.css') layer(reset);
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 @font-face {
@@ -8,7 +8,7 @@
 }
 
 :root {
-	--font-title: smrqfont, sans-serif;
+	--font-title: smrqfont, 'Share Tech', sans-serif;
 	--letter-spacing-title: 0.05em;
 	--font-body: 'Share Tech', sans-serif;
 	--color-red: #ff5301;
@@ -87,4 +87,8 @@ p {
 
 .gap-700 {
 	gap: 4rem;
+}
+
+.aspect-16-9 {
+	aspect-ratio: 16/9;
 }

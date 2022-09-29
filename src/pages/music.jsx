@@ -1,5 +1,7 @@
-import YouTube from 'react-youtube';
+import dynamic from 'next/dynamic';
 import releases from '../releases';
+
+const ReactPlayer = dynamic(() => import('react-player/lazy', { ssr: false }));
 
 export default function MusicPage() {
 	return (
@@ -16,10 +18,16 @@ export default function MusicPage() {
 						<p>{release.date}</p>
 					</hgroup>
 					{release.youtube && (
-						<YouTube
-							videoId={release.youtube}
-							opts={{ height: '360px', width: '640px' }}
-						/>
+						<div className="aspect-16-9">
+							<ReactPlayer
+								url={`https://www.youtube.com/watch?v=${release.youtube}`}
+								width="100%"
+								height="100%"
+							/>
+						</div>
+					)}
+					{release.soundcloud && (
+						<ReactPlayer url={release.soundcloud} height="166" width="100%" />
 					)}
 				</div>
 			))}

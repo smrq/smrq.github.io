@@ -1,7 +1,6 @@
 .nav {
 	text-transform: uppercase;
 	display: flex;
-	flex-flow: row wrap;
 	align-items: center;
 	margin: 1rem 0;
 }
@@ -10,10 +9,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}
-
-.nav > ul > li {
-	display: inline-block;
+	display: flex;
 }
 
 .nav a {
@@ -41,10 +37,17 @@
 }
 
 .socials {
-	display: flex;
+	flex-wrap: wrap;
 	gap: 0.5rem;
+	max-width: 6.5rem; /* 2 wide */
 }
 
 .nav .socials a {
 	border-radius: 999px;
+}
+
+@media (min-width: 640px) {
+	.socials {
+		max-width: unset;
+	}
 }

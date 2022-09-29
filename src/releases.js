@@ -22,14 +22,21 @@ const releases = [
 		originalArtist: 'Angus Macnaughton',
 		type: 'Single',
 		date: '2015.02.13',
+		soundcloud: 'https://soundcloud.com/smrq/breathe-feat-stephen-mcgranahan',
 	},
 	{
 		title: 'Reach for the Dead (smrq remix)',
 		originalArtist: 'Boards of Canada',
 		type: 'Single',
 		date: '2013.05.25',
+		soundcloud: 'https://soundcloud.com/smrq/reach-for-the-dead',
 	},
-	{ title: 'Type A', type: 'Single', date: '2013.03.14' },
+	{
+		title: 'Type A',
+		type: 'Single',
+		date: '2013.03.14',
+		soundcloud: 'https://soundcloud.com/smrq/type-a',
+	},
 	{
 		title: 'Tetrik',
 		type: 'Single',
@@ -49,12 +56,23 @@ const releases = [
 		date: '2012.02.29',
 		youtube: '-H77dvb1I4g',
 	},
-	{ title: 'Sticking Together', type: 'Single', date: '2009.08.18' },
-	{ title: 'Colonize', type: 'Single', date: '2008.04.04' },
+	{
+		title: 'Sticking Together',
+		type: 'Single',
+		date: '2009.08.18',
+		soundcloud: 'https://soundcloud.com/smrq/sticking-together',
+	},
+	{
+		title: 'Colonize',
+		type: 'Single',
+		date: '2008.04.04',
+		soundcloud: 'https://soundcloud.com/smrq/colonize',
+	},
 	{
 		title: 'Chorale for the Aquatic Traveler',
 		type: 'Single',
 		date: '2008.02.04',
+		soundcloud: 'https://soundcloud.com/smrq/chorale-for-the-aquatic-traveler',
 	},
 ];
 
