@@ -1,4 +1,6 @@
+@import url('~normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 @font-face {
 	font-family: smrqfont;
 	font-display: swap;
@@ -22,7 +24,7 @@ body,
 }
 
 body {
-	font-family: var(--font-title);
+	font-family: var(--font-body);
 	letter-spacing: var(--letter-spacing-title);
 	font-size: 1.5rem;
 	background: linear-gradient(

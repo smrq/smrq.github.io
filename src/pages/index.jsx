@@ -4,7 +4,7 @@ export default function HomePage() {
 	return (
 		<div className="flex flex-column gap-600">
 			<hgroup>
-				<h1>summit</h1>
+				<h2 className="font-title">summit</h2>
 				<p>2022.08.06</p>
 			</hgroup>
 			<YouTube
