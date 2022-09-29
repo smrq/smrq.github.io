@@ -1,4 +1,4 @@
-@import url('~normalize.css') layer(reset);
+@import url('~normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 @font-face {
@@ -17,13 +17,13 @@
 	--color-blue: #9ec8ed;
 }
 
-html,
-body,
+:root html,
+:root body,
 #__next {
 	height: 100%;
 }
 
-body {
+:root body {
 	font-family: var(--font-body);
 	letter-spacing: var(--letter-spacing-title);
 	font-size: 1.5rem;
@@ -36,13 +36,13 @@ body {
 	background-attachment: fixed;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+:root h1,
+:root h2,
+:root h3,
+:root h4,
+:root h5,
+:root h6,
+:root p {
 	margin: 0;
 }
 

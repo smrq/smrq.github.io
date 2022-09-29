@@ -18,7 +18,7 @@ const releases = [
 		youtube: 'fhYi958qqac',
 	},
 	{
-		title: 'Breathe (feat. Stephen McGranahan)',
+		title: 'Breathe',
 		originalArtist: 'Angus Macnaughton',
 		type: 'Single',
 		date: '2015.02.13',
