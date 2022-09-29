@@ -10,13 +10,13 @@ const releases = [
 	{
 		title: 'killed in the light of a crescent moon',
 		type: 'Single',
-		date: '2022.09.30',
+		date: '2020.09.30',
 		youtube: 'ZZ0JY_LTxc8',
 	},
 	{
 		title: 'jamelan',
 		type: 'Single',
-		date: '2022.09.20',
+		date: '2020.09.20',
 		youtube: 'fhYi958qqac',
 	},
 	{
